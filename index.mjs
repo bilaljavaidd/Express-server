@@ -7,15 +7,15 @@ app.get('/',(req, res)=>{
     res.send('abhi ap home page pe hein' + new Date())
 })
 
-app.get('about',(req, res)=>{
+app.get('/about',(req, res)=>{
     res.send('abhi ap about page pe hein' + new Date())
 })
 
-app.get('contact',(req, res)=>{
+app.get('/contact',(req, res)=>{
     res.send('abhi ap contact page pe hein' + new Date())
 })
 
-app.get('dashboard',(req, res)=>{
+app.get('/dashboard',(req, res)=>{
     res.send('abhi ap dashboard page pe hein' + new Date())
 })
 
